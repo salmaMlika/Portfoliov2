@@ -13,7 +13,7 @@ export const OWNER = {
   location: "Tunisia",
   email: "salma.mlika.dev@gmail.com",
   github: "https://github.com/salmamlika",
-  linkedin: "https://linkedin.com/in/salmamlika",
+  linkedin: "https://linkedin.com/in/salma-mlika",
   bio:"AI & Data Science Engineering student. I turn messy data and ML models into real, usable products , from pipeline to deployment. Especially drawn to where tech meets healthcare or EdTech.",
   seeking:
     "Currently looking for AI, Data Science, Machine Learning Engineering, Analytics, and HealthTech internship opportunities.",
