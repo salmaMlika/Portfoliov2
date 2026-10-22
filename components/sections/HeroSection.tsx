@@ -52,7 +52,7 @@ export default function HeroSection() {
               fontFamily: "'DM Sans', sans-serif", fontSize: "12px",
               color: "var(--accent-green)", fontWeight: 500
             }}>
-              Open to internship opportunities
+              Open to a PFE internship · early 2027
             </span>
           </div>
 
@@ -100,9 +100,9 @@ export default function HeroSection() {
   lineHeight: 1.78, marginBottom: "38px", fontWeight: 300,
   opacity: 0, animation: "fadeUp 0.6s ease-out 0.35s forwards",
 }}>
-  AI & Data Engineering student. I like building 
-  things that actually ships.from healthcare to EdTech , and everything in between.
-  Fluent in French & English. Let's make it happen!</p>
+  AI & Data Science engineering student with a scientific background. I build
+  models that actually ship, especially where data meets healthcare.
+  Fluent in French & English.</p>
 
           {/* CTAs */}
           <div style={{
@@ -212,7 +212,7 @@ export default function HeroSection() {
               <span style={{
                 fontFamily: "'DM Sans', sans-serif", fontSize: "12px",
                 color: "var(--text-secondary)", fontWeight: 500
-              }}>Available · Summer 2026</span>
+              }}>Available · Early 2027</span>
             </div>
 
           
