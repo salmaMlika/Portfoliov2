@@ -15,8 +15,8 @@ export default function ContactSection() {
           fontFamily: "'DM Sans', sans-serif", fontSize: "16px",
           color: "var(--text-secondary)", lineHeight: 1.75, marginBottom: "44px", fontWeight: 300
         }}>
-          I'm looking for internship opportunities in AI, Machine Learning, Data Science,
-          and HealthTech. If you have an open position or want to collaborate, I'd love to hear from you.
+          I'm looking for a 6-month end-of-studies internship (PFE) starting in early 2027, in AI,
+          Machine Learning or Data Science. If you have an open position or want to collaborate, I'd love to hear from you.
         </p>
 
         <a href={`mailto:${OWNER.email}`} style={{

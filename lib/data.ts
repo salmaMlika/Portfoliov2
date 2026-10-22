@@ -10,13 +10,13 @@ import type {
 export const OWNER = {
   name: "Salma Mlika",
   title: "AI & Data Science Engineering Student",
-  location: "Tunisia",
+  location: "Sousse, Tunisia",
   email: "salma.mlika.dev@gmail.com",
   github: "https://github.com/salmamlika",
   linkedin: "https://linkedin.com/in/salma-mlika",
-  bio:"AI & Data Science Engineering student. I turn messy data and ML models into real, usable products , from pipeline to deployment. Especially drawn to where tech meets healthcare or EdTech.",
+  bio: "AI & Data Science engineering student with a scientific background, particularly interested in how data can solve real-life challenges, especially in healthcare. Hands-on experience in NLP, medical image classification and LLM / RAG systems, from data collection to deployed models.",
   seeking:
-    "Currently looking for AI, Data Science, Machine Learning Engineering, Analytics, and HealthTech internship opportunities.",
+    "Currently seeking a 6-month end-of-studies internship (PFE) starting in early 2027, in AI, Data Science or Machine Learning Engineering.",
   languages: [
     { name: "Arabic", level: "Native" },
     { name: "French", level: "C1" },
@@ -38,7 +38,7 @@ export const OWNER = {
     {
       institution: "Lycée Pilote de Zaghouan",
       degree: "Tunisian Baccalaureate in Experimental Sciences",
-      period: "2017 – 2021",
+      period: "2021",
       current: false,
     },
   ],
@@ -47,7 +47,7 @@ export const OWNER = {
 export const STATS: Stat[] = [
   { value: "10+", label: "Projects" },
   { value: "15+", label: "Technologies" },
-  { value: "3", label: "Certifications" },
+  { value: "4", label: "Certifications" },
 ];
 
 // ============================================================
@@ -276,6 +276,47 @@ export const ALL_TAGS = [
 
 export const EXPERIENCES: Experience[] = [
   {
+    company: "Auzy Mental Health",
+    role: "AI & Data Science Engineering Intern",
+    period: "July 2026 – September 2026",
+    type: "internship",
+    achievements: [
+      "Built and curated a 22,000+ multilingual dataset for suicide risk detection in users' journal entries, with data-quality checks and gap analysis",
+      "Fine-tuned XLM-RoBERTa (FR/EN/AR), prioritizing recall to minimize missed cases: 95.9% EN, 99.1% AR, 97.5% FR",
+      "Served the model through a FastAPI service with ONNX Runtime inference, containerized with Docker",
+      "Developed mood tracking (mood, intensity, sleep) and weekly/monthly analytics to support therapists' clinical follow-up",
+    ],
+    technologies: [
+      "Python",
+      "Hugging Face",
+      "XLM-RoBERTa",
+      "ONNX Runtime",
+      "FastAPI",
+      "React",
+      "Node.js",
+      "Docker",
+    ],
+  },
+  {
+    company: "EPI Digital Sousse",
+    role: "AI & Data Science Engineering Intern",
+    period: "April 2026 – June 2026",
+    type: "internship",
+    achievements: [
+      "Designed a modular ML platform supporting classification, regression and clustering through a guided 6-step pipeline",
+      "Automated preprocessing, imbalance handling, model selection and hyperparameter tuning (Grid / Random Search)",
+      "Built a Streamlit interface to compare algorithms and visualize metrics (confusion matrix, feature importances)",
+    ],
+    technologies: [
+      "Python",
+      "Scikit-learn",
+      "XGBoost",
+      "imbalanced-learn",
+      "Pandas",
+      "Streamlit",
+    ],
+  },
+  {
     company: "GoMyTeacher (GoMyCode x InstaDeep)",
     role: "Software Engineering Intern",
     period: "July 2025 – September 2025",
@@ -304,10 +345,10 @@ export const EXPERIENCES: Experience[] = [
     period: "January 2024 – June 2024",
     type: "internship",
     achievements: [
-      "contributed to building PaaS / DBaaS cloud platform from scratch",
+      "Contributed to a cloud PaaS / DBaaS platform for deploying applications and databases",
       "Containerized services with Docker for reproducible deployments",
       "Implemented Jenkins CI/CD pipeline for automated testing and delivery",
-      "Set up Grafana monitoring dashboards for system observability",
+      "Set up Grafana and Prometheus monitoring to track system performance and stability",
     ],
     technologies: [
       "Django",
@@ -315,7 +356,7 @@ export const EXPERIENCES: Experience[] = [
       "Docker",
       "Jenkins",
       "Grafana",
-      "PostgreSQL",
+      "Prometheus",
     ],
   },
 ];
@@ -359,7 +400,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
       { name: "Hugging Face Transformers", level: 85 },
       { name: "LangChain", level: 80 },
       { name: "RAG Systems", level: 82 },
-      { name: "BERT / AraBERT", level: 82 },
+      { name: "BERT / AraBERT / XLM-RoBERTa", level: 85 },
       { name: "NLTK / spaCy", level: 88 },
       { name: "Word2Vec / LDA", level: 85 },
     ],
@@ -403,6 +444,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
       { name: "GitHub Actions", level: 85 },
       { name: "AWS (EC2, S3, Lambda)", level: 75 },
       { name: "FastAPI", level: 88 },
+      { name: "ONNX Runtime", level: 78 },
       { name: "Jenkins", level: 75 },
       { name: "Grafana", level: 72 },
     ],
@@ -445,8 +487,14 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "Google Cloud",
     year: "2025",
     icon: "☁️",
-    credentialUrl: "https://www.coursera.org/account/accomplishments/verify/RE9Y5R0CUP9W", 
-    
+    credentialUrl: "https://www.coursera.org/account/accomplishments/verify/RE9Y5R0CUP9W",
+  },
+  {
+    title: "Microsoft Certified: Azure Fundamentals (AZ-900)",
+    issuer: "Microsoft",
+    year: "2026",
+    icon: "🔷",
+    credentialUrl: "https://www.credly.com/badges/4fcea5d1-8c2f-48b6-954d-51e4f6842cfc",
   },
   {
     title: "Using Python to Access Web Data",
